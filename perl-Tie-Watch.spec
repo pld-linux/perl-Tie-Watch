@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Tie
 %define	pnam	Watch
-%include	/usr/lib/rpm/macros.perl
 Summary:	Tie-Watch perl module
 Summary(pl):	Modu³ perla Tie-Watch
 Name:		perl-Tie-Watch
 Version:	1.0
-Release:	7
-
+Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -23,7 +22,7 @@ Tie-Watch perl module.
 Modu³ perla Tie-Watch.
 
 %prep
-%setup -q -n Tie-Watch-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %patch -p0
 %build
