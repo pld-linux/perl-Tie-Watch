@@ -40,7 +40,7 @@ przeczytaæ manual perltie(1).
 %patch -p0
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
