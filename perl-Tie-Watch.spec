@@ -3,7 +3,7 @@ Summary:	Tie-Watch perl module
 Summary(pl):	Modu³ perla Tie-Watch
 Name:		perl-Tie-Watch
 Version:	1.0
-Release:	4
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
