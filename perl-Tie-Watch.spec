@@ -1,8 +1,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Tie
 %define	pnam	Watch
-Summary:	Tie::Watch perl module
-Summary(pl):	Modu³ perla Tie::Watch
+Summary:	Tie::Watch - place watchpoints on Perl variables.
 Name:		perl-Tie-Watch
 Version:	1.0
 Release:	8
@@ -16,10 +15,13 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Tie::Watch perl module.
-
-%description -l pl
-Modu³ perla Tie::Watch.
+This class module binds one or more subroutines of your devising to a
+Perl variable.  All variables can have B<FETCH>, B<STORE> and B<DESTROY>
+callbacks.  Additionally, arrays can define B<CLEAR>, B<EXTEND>,
+B<FETCHSIZE>, B<POP>, B<PUSH>, B<SHIFT>, B<SPLICE>, B<STORESIZE>
+and B<UNSHIFT> callbacks, and hashes can define B<CLEAR>, B<DELETE>,
+B<EXISTS>, B<FIRSTKEY> and B<NEXTKEY> callbacks.  If these term are
+unfamiliar to you, I I<really> suggest you read L<perltie>.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
