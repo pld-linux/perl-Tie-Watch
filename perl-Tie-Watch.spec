@@ -2,7 +2,7 @@
 %define	pdir	Tie
 %define	pnam	Watch
 Summary:	Tie::Watch - place watchpoints on Perl variables
-Summary(pl):	Tie::Watch - umieszczanie punktów ¶ledzenia na zmiennych
+Summary(pl):	Tie::Watch - umieszczanie punktów ¶ledzenia na zmiennych Perla
 Name:		perl-Tie-Watch
 Version:	1.1
 Release:	1
