@@ -27,7 +27,7 @@ Modu³ perla Tie-Watch.
 %patch -p0
 %build
 perl Makefile.PL
-make
+%{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
