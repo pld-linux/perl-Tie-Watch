@@ -1,0 +1,16 @@
+--- examples.paths/tktie	Mon Apr  5 01:16:15 1999
++++ examples/tktie	Tue Oct 19 19:57:36 1999
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ #
+ # Show how to set a watchpoint on a Tk Entry variable.  Using this technique
+ # you can do data verification on the user's input.  SOL
+--- examples.paths/verbose	Mon Apr  5 00:55:42 1999
++++ examples/verbose	Tue Oct 19 19:57:41 1999
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ 
+ use strict;
+ use Tie::Watch;
