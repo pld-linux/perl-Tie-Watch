@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Tie
 %define	pnam	Watch
-Summary:	Tie-Watch perl module
-Summary(pl):	Modu³ perla Tie-Watch
+Summary:	Tie::Watch perl module
+Summary(pl):	Modu³ perla Tie::Watch
 Name:		perl-Tie-Watch
 Version:	1.0
 Release:	8
@@ -16,10 +16,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Tie-Watch perl module.
+Tie::Watch perl module.
 
 %description -l pl
-Modu³ perla Tie-Watch.
+Modu³ perla Tie::Watch.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
