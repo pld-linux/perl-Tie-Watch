@@ -4,11 +4,11 @@ Summary(pl):	Modu³ perla Tie-Watch
 Name:		perl-Tie-Watch
 Version:	1.0
 Release:	3
-Copyright:	GPL
+License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
-Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/Tie/Tie-Watch-%{version}.tar.gz
-Patch:		perl-Tie-Watch-paths.patch
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Tie/Tie-Watch-%{version}.tar.gz
+Patch0:		perl-Tie-Watch-paths.patch
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.005_03-14
 %requires_eq	perl
@@ -31,11 +31,11 @@ make
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT/usr/src/examples/%{name}-%{version}
+install -d $RPM_BUILD_ROOT%{_prefix}/src/examples/%{name}-%{version}
 
 make install DESTDIR=$RPM_BUILD_ROOT
 
-install examples/* $RPM_BUILD_ROOT/usr/src/examples/%{name}-%{version}
+install examples/* $RPM_BUILD_ROOT%{_prefix}/src/examples/%{name}-%{version}
 
 (
   cd $RPM_BUILD_ROOT%{perl_sitearch}/auto/Tie/Watch
@@ -58,4 +58,4 @@ rm -rf $RPM_BUILD_ROOT
 
 %{_mandir}/man3/*
 
-/usr/src/examples/%{name}-%{version}
+%{_prefix}/src/examples/%{name}-%{version}
