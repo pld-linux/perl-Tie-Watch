@@ -38,7 +38,7 @@ przeczytaæ manual perltie(1).
 
 %patch -p0
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 
 %install
