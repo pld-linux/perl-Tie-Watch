@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Tie
-%define	pnam	Watch
+%define		pdir	Tie
+%define		pnam	Watch
 Summary:	Tie::Watch - place watchpoints on Perl variables
 Summary(pl):	Tie::Watch - umieszczanie punktów ¶ledzenia na zmiennych Perla
 Name:		perl-Tie-Watch
