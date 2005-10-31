@@ -8,13 +8,13 @@
 Summary:	Tie::Watch - place watchpoints on Perl variables
 Summary(pl):	Tie::Watch - umieszczanie punktów ¶ledzenia na zmiennych Perla
 Name:		perl-Tie-Watch
-Version:	1.1
-Release:	2
+Version:	1.2
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	7bdc6e4727c257ed16405c1c869847bf
+# Source0-md5:	9bbdff61b7fc82980d5c213f4b5763bc
 Patch0:		%{name}-paths.patch
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
