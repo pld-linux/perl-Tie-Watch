@@ -42,7 +42,7 @@ przeczytaæ manual perltie(1).
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
-%patch -p0
+%patch0 -p0
 %build
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
