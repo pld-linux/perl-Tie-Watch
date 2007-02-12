@@ -6,7 +6,7 @@
 %define		pdir	Tie
 %define		pnam	Watch
 Summary:	Tie::Watch - place watchpoints on Perl variables
-Summary(pl):	Tie::Watch - umieszczanie punktów ¶ledzenia na zmiennych Perla
+Summary(pl.UTF-8):   Tie::Watch - umieszczanie punktÃ³w Å›ledzenia na zmiennych Perla
 Name:		perl-Tie-Watch
 Version:	1.2
 Release:	1
@@ -30,14 +30,14 @@ can define CLEAR, DELETE, EXISTS, FIRSTKEY and NEXTKEY callbacks. If
 these term are unfamiliar to you, I really suggest you read
 perltie(1).
 
-%description -l pl
-Ten modu³ dowi±zuje jedn± lub wiêcej ¿±danych funkcji do perlowej
-zmiennej. Wszystkie zmienne mog± mieæ callbacki FETCH, STORE i
-DESTROY. Dodatkowo, tablice mog± mieæ zdefiniowane callbacki CLEAR,
+%description -l pl.UTF-8
+Ten moduÅ‚ dowiÄ…zuje jednÄ… lub wiÄ™cej Å¼Ä…danych funkcji do perlowej
+zmiennej. Wszystkie zmienne mogÄ… mieÄ‡ callbacki FETCH, STORE i
+DESTROY. Dodatkowo, tablice mogÄ… mieÄ‡ zdefiniowane callbacki CLEAR,
 EXTEND, FETCHSIZE, POP, PUSH, SHIFT, SPLICE, STORESIZE i UNSHIFT, a
-hasze mog± mieæ zdefiniowane callbacki CLEAR, DELETE, EXISTS, FIRSTKEY
-i NEXTKEY. Je¿eli te nazwy nie wygl±daj± znajomo, dobrze jest
-przeczytaæ manual perltie(1).
+hasze mogÄ… mieÄ‡ zdefiniowane callbacki CLEAR, DELETE, EXISTS, FIRSTKEY
+i NEXTKEY. JeÅ¼eli te nazwy nie wyglÄ…dajÄ… znajomo, dobrze jest
+przeczytaÄ‡ manual perltie(1).
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
